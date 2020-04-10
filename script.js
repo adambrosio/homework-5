@@ -1,14 +1,8 @@
-// const today = moment();
-// console.log(today.format());
+// Added updating date using moment.js to the currentDay id
+$("#currentDay").text(moment().format("MMMM Do, YYYY"));  
+console.log(currentDay);
 
-// const moment = require('moment')
-// console.log("Today's date is: " + 
-// today.format('YYYY-MM-DD')
-// );
-
-// var date = moment().format("MMM Do YY");
-// $(".").append(date);
-
-// console.log(date);
-
-
+// Once text is entered into the textarea
+    // Event listener button on click will  save content within local storage
+        // ?With the time associated with it?
+    // Will clear text from the field

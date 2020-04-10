@@ -4,13 +4,14 @@ body {
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  
 }
 
 .jumbotron {
@@ -21,11 +22,11 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
@@ -40,6 +41,8 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border: 1px solid #000000;
+  text-align: center;
+  padding: 25px;
 }
 
 .past {
@@ -61,7 +64,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: red;
   color: white;
 }
 
